@@ -1,0 +1,57 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="boxes/css/style6.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.facybox.css" media="all">
+
+</head>
+<body>
+<div id="footer">
+    <!--First Column -->
+    <div class="one-fourth">
+        <h3>Customers' Services</h3>
+        <ul class="footer_links">
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!--Second Column -->
+    <div class="one-fourth">
+        <h3>Adminstrator</h3>
+        <ul class="footer_links">
+            <li><a href="#">Log in</a></li>
+        </ul>
+    </div>
+
+    <div class="one-fourth">
+        <h3>Information</h3>
+        For online shopping Apple's products
+        <div id ="social_icons"> Theme by<a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a><br>
+            Photos <a href="http://dietershneider.net"></a>
+        </div>
+    </div>
+
+    <div class="one-fourth">
+        <h3>Socialize</h3>
+        For online shopping Apple's products
+        <img src="img/icon_fb.png">
+        <img src="img/icon_twitter.png">
+        <img src="img/icon_in.png">
+        <div style="clear: both"></div>
+    </div>
+
+
+</div>
+</body>
+</html>

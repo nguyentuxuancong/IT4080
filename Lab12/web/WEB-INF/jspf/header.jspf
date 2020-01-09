@@ -1,0 +1,46 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+
+<%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!D0CTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!— CSS Files —>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+    <link rel="stylesheet" href="/sliderengine/amazingslider-1.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="boxes/css/style6.css">
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css">
+    <!---JS file--->
+    <!---..--->
+</head>
+<body>
+<div class="header">
+    <div id="site_title">
+        <img src="img/logo.png" alt=""><br>
+    </div>
+    <ol id="menu">
+        <li class="active_menu_item"><a href="index.jsp" style="color: #FFF">Home</a></li>
+        <li><a href="#">Category</a>
+            <ol>
+                <li><a href="category?1">Mac</a>
+                    <ol>
+                        <li><a href="#">iMac</a></li>
+                        <li><a href="#">Mac Pro</a></li>
+                        <li><a href="#">MacBook Air</a></li>
+                        <li><a href="#">MacBook Pro</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="category?2">iPhone</a></li>
+                <li><a href="category?3">iPad</a></li>
+                <li><a href="category?4">Accessories</a></li>
+            </ol>
+        </li>
+        <li><a href="addProduct.jsp">Add Product</a></li>
+    </ol>
+</div>
